@@ -1,8 +1,10 @@
-# Modulo1
+# Modulo 1
 
-## Grupo
+## Grupo Fuego
 
-* Lucia
-* Marina
-* Franco
-* Juani
+* La Motta, Franco
+* Cabrera, Lucía
+* Cortez, Marina
+* Aberastain, Juan Ignacio
+
+  
