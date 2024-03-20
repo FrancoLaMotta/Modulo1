@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Tarea de prueba}
+\author{Lucía Cabrera}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Lenguaje de marca de textos}
+\subsection{Qué es un documento de marca de textos}
+Un documento de marca de textos es un archivo de texto que contiene instrucciones especiales que pueden ser interpretadas por un software para aplicar formatos o estructuras específicas al texto contenido en el documento. \\
+\\
+Como ejemplo de este tipo de documentos podemos mencionar HTML, Mark Down y LaTex. 
+\\
+En las próximas secciones describiremos cómo realizar las siguientes estructuras comunes en los lenguajes de marca de texto mencionados.
+\begin{itemize}
+    \item \underline{Título}\\
+    Un título es una expresión breve y descriptiva que se utiliza para identificar, resumir o destacar el contenido de un trabajo escrito, un artículo, un libro, una presentación, una película, una canción, entre otros tipos de medios o productos. Los títulos suelen colocarse al principio de un trabajo o sección para proporcionar al lector una idea general del tema que se tratará.
+
+    \item \underline{Texto}\\
+    Un texto se refiere a un conjunto coherente de palabras, frases y oraciones que transmiten un mensaje o una idea específica. Los textos pueden variar en longitud y complejidad, desde una simple oración hasta un libro completo. Pueden estar escritos en forma impresa o digital y pueden abarcar una amplia gama de géneros y formas, como ensayos, artículos periodísticos, novelas, poemas, cartas, mensajes de texto, correos electrónicos, entre otros.
+
+    \item \underline{Lista de viñetas}\\
+    Una lista de viñetas es una forma de presentar información en la que los elementos de la lista están precedidos por viñetas o símbolos, en lugar de números o letras como en una lista numerada o alfabética.
+
+    \item \underline{Tabla}\\
+    Una tabla es una estructura visual que organiza datos en filas y columnas, lo que facilita la comparación, el análisis y la presentación de la información de manera ordenada y sistemática. Las tablas se utilizan comúnmente en documentos, informes, presentaciones, sitios web y otros medios para mostrar información de forma clara y concisa.
+
+    \item \underline{Hipervínculo}\\
+    Un hipervínculo, comúnmente abreviado como "enlace", es un elemento de un documento electrónico, como una página web, un documento PDF o un correo electrónico, que permite a los usuarios acceder a otro recurso relacionado con solo hacer clic en él. Los hipervínculos son elementos interactivos que conectan información y recursos dentro y fuera del documento actual.
+
+    \item \underline{Imagen}\\
+    Una imagen es una representación visual o gráfica de un objeto, persona, escena o concepto. En el contexto de la informática y la tecnología, una imagen generalmente se refiere a un archivo digital que contiene datos visuales, que pueden ser mostrados en una pantalla de computadora, dispositivo móvil u otro medio visual.
+\end{itemize}
+
+\section{Documento HTML}
+HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. Utiliza etiquetas y atributos para definir la estructura y el formato del contenido web, incluidos títulos, párrafos, encabezados, enlaces, imágenes, listas, tablas, etc.
+\\
+Describiremos cómo realizar las estructuras mencionadas en este lenguaje.
+\subsection{Estructuras en HTML}
+\subsubsection{Título}
+En HTML tenemos la opción de poner títulos de distintos tamaños, con las etiquetas de encabezado \textless h1 \textgreater a \textless h6 \textgreater para crear títulos de distintos tamaños. Estas etiquetas se utilizan para indicar la importancia y el nivel de los encabezados en una página web, donde \textless h1\textgreater es el título más grande y \textless h6 \textgreater es el más pequeño.
+
+\subsubsection{Texto}
+Para poner texto en HTML, hay que escribir el texto deseado directamente dentro del cuerpo \textless body \textgreater del documento HTML.
+Adicionalmente, se puede separar por párrafos el texto con el elemento $<p>$
+
+\subsubsection{Lista de viñetas}
+Para crear una lista de viñetas en HTML, usamos el elemento $<ul>$ (unordered list) para definir la lista y para cada elemento de la lista usamos $<li>$ (list item) 
+
+\subsubsection{Tabla}
+Para crear una tabla en HTML, usamos los elementos $<table>$, $<tr>$ (table row), $<th>$ (table header), y $<td>$ (table data/cell) para definir la estructura y el contenido de la tabla. 
+\subsubsection{Hipervínculo}
+Para crear un hipervínculo en HTML, usamos el elemento $<a>$ (anchor) y el atributo href para especificar la URL a la que debe dirigirse el hipervínculo cuando se hace clic en él. Se debe ver como sigue: $<a href="https://ar.pinterest.com/">Visit Pinterest!</a>$
+\subsubsection{Imagen}
+Para agregar una imagen en HTML, usamos el elemento $<img>$ (imagen) y especificar la ruta de la imagen en el atributo src. Se debe ver como sigue: $<img src="nombredelaimagen" alt="Referencia" width="ancho" height="altura">$
+
+
+
+\end{document}
