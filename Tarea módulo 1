@@ -58,6 +58,45 @@ Para crear un hipervínculo en HTML, usamos el elemento $<a>$ (anchor) y el atri
 \subsubsection{Imagen}
 Para agregar una imagen en HTML, usamos el elemento $<img>$ (imagen) y especificar la ruta de la imagen en el atributo src. Se debe ver como sigue: $<img src="nombredelaimagen" alt="Referencia" width="ancho" height="altura">$
 
+\section{GitHub}
+\subsection{¿Qué es GitHub?}
+GitHub es una plataforma de alojamiento de repositorios de código en línea. Permite a los desarrolladores y equipos de desarrollo almacenar, gestionar y compartir su código de forma colaborativa.\\
 
+\subsection{¿Para qué sirve GitHub?}
+Si bien su uso es realmente amplio, algunos de sus usos más comunes son:\\
+\begin{itemize}
+    \item  \textbf{Desarrollo de Software}: GitHub es ampliamente utilizado por desarrolladores de software para almacenar, colaborar y gestionar el código fuente de sus proyectos
+
+    \item  \textbf{Gestión de Proyectos}: Proporciona herramientas para la gestión eficiente de proyectos, incluyendo seguimiento de problemas, gestión de tareas y organización del trabajo.
+
+    \item  \textbf{Control de Versiones}: Permite un control preciso sobre las versiones del código, lo que facilita la identificación de cambios específicos, la reversión de cambios no deseados y la gestión de ramas de desarrollo.
+
+    \item  \textbf{Colaboración}: Facilita la colaboración en proyectos de código abierto y privados al permitir que múltiples personas trabajen juntas en el mismo código de forma simultánea.
+\end{itemize}
+
+\subsection{Funciones en el uso de Github}
+\begin{itemize}
+ 
+   \item \textbf{Título Principal}: El símbolo numeral indica un encabezado de nivel 1, que se utiliza comúnmente para el título principal del proyecto.\\
+   
+   \item \textbf{Subtítulo}: Al colocar un doble numeral antes del texto, indicamo un encabezado de nivel 2 o subtítulo.\\
+      \item \textbf{Imagen}: Hacer click en el botón "Add file" y seleccionar "Upload files". A continuación, selecciona la imagen que deseas subir y súbela al repositorio.Una vez que hayas subido la imagen, podrás verla en la lista de archivos del repositorio. Haz clic en la imagen para verla en su propia página. Luego, haz clic derecho en la imagen y selecciona "Copy image address" (Copiar dirección de la imagen) o similar para obtener la URL de la imagen.Como paso siguiente debes abrir el archivo README.md (o cualquier otro archivo Markdown donde desees mostrar la imagen) y utiliza la siguiente sintaxis Markdown para insertar la imagen:
+
+   (![Texto alternativo](URLdelaimagen))
+   \item \textbf{Viñeta}:Para crear viñetas o listas con viñetas en un archivo Markdown en GitHub, puedes usar el siguiente formato:\\
+   Cada elemento de la lista comienza con un guion (-) seguido de un espacio. Se puede colocar elementos de lista con viñetas agregando espacios al principio de la línea.
+   \item \textbf{Separación de párrafos}: Se pueden separar párrafos simplemente dejando una línea en blanco entre ellos en tu archivo Markdown en Github.\\
+   \item \textbf{Hipervínculo}:Para colocar un hipervínculo en un archivo Markdown en GitHub, puedes usar la siguiente sintaxis entre comillas:\\
+   ("[Texto del enlace](URLdelenlace)")\\
+   texto del enlace: es el texto que deseas que aparezca como el enlace.\\
+   URL del enlace: es la URL a la que deseas que el enlace apunte.\\
+   
+   \item \textbf{Tabla}: Para crear una tabla en un archivo Markdown en GitHub, puedes seguir el siguiente formato:\\
+   Cada línea de la tabla está separada por barras verticales |, y el contenido de cada celda se encuentra entre ellas. Las líneas que comienzan y terminan con | son los límites de la tabla, y el texto entre ellas se divide en columnas según el número de barras verticales.
+  
+   \begin{figure} [h]
+   \centering
+   \includegraphics[width=0.5\textwidth]{tablagithub.png}
+   \end{figure}
 
 \end{document}
