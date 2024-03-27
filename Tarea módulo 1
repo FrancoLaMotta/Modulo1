@@ -98,5 +98,41 @@ Si bien su uso es realmente amplio, algunos de sus usos más comunes son:\\
    \centering
    \includegraphics[width=0.5\textwidth]{tablagithub.png}
    \end{figure}
+\section{R Markdown}
+R Markdown es una herramienta que combina la facilidad de escritura de texto plano con la capacidad de ejecutar código en R y crear documentos dinámicos que incluyen resultados, gráficos y texto formateado.
+\subsection {Flujo de trabajo}
+R Markdown es un formato para escribir informes dinámicos y reproducibles con R. Se usa para
+incrustar código R y resultados en presentaciones de diapositivas, archivos PDF, documentos HTML, archivos de Word y más. Para hacer un informe:
+\begin{itemize}
+\item Abrir una fila que use .Rmd extension.
+\end{itemize}
+\begin{itemize}
+\item Escribir contenido con el sintaxis R Markdown.
+\end{itemize}
+\begin{itemize}
+\item Insertar código R que crea resultados para introducirlos en el informe.
+\end{itemize}
+\begin{itemize}
+\item Renderizar: Reemplazar el código R con su salida y transformar
+el informe en un archivo de presentación de diapositivas, pdf, html o ms Word.
+\end{itemize}
+\subsection{Abrir documento}
+Para este paso debemos comenzar guardando un archivo de texto con la extensión .Rmd, o abra una plantilla RStudio Rmd.
+En el menú, hacer clic en File>New file>R Markdown. Se va a abrir una ventana en la cual nosotros debemos hacer clic en la salida que quisieramos para nuestro archivo .Rmd. Luego de eso hacemos clic en OK.
+\subsection{Markdown}
+R Markdown utiliza la sintaxis de Markdown para formatear texto. Markdown es un lenguaje de marcado ligero que permite agregar formato como encabezados, listas, enlaces e imágenes utilizando caracteres simples y fácilmente legibles.
 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth, trim=17.3cm 1.5cm 5.5cm 5cm, clip]{imagenmd}
+    \caption{ejemplo}
+    \label{fig:recortada}
+\end{figure}
+\subsection{Encabezado del documento}
+Cada documento de R Markdown comienza con un encabezado YAML (YAML Ain't Markup Language), que especifica las opciones de formato y configuración del documento, como el título, autor y tipo de salida.
+\subsection{Render}
+El proceso de convertir un documento de R Markdown en su formato de salida deseado se llama "knitting". Se tejer un documento haciendo clic en el botón "Knit" en RStudio o utilizando la función "render" en R.
+\subsection{Conclusión}
+R Markdown se ha convertido en una herramienta muy útil para la sociedad ya que permite la creación de informes interactivos, presentaciones dinámicas, etc.
 \end{document}
