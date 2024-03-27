@@ -135,4 +135,63 @@ Cada documento de R Markdown comienza con un encabezado YAML (YAML Ain't Markup 
 El proceso de convertir un documento de R Markdown en su formato de salida deseado se llama "knitting". Se tejer un documento haciendo clic en el botón "Knit" en RStudio o utilizando la función "render" en R.
 \subsection{Conclusión}
 R Markdown se ha convertido en una herramienta muy útil para la sociedad ya que permite la creación de informes interactivos, presentaciones dinámicas, etc.
+
+
+\section{Overleaf o LaTeX}
+
+\hspace{1cm} Overleaf es una plataforma en línea que proporciona un entorno de edición colaborativo para documentos LaTeX. Es un editor de LaTeX en la nube que permite a los usuarios escribir, editar y compilar documentos LaTeX directamente en el navegador web, sin necesidad de instalar ningún software adicional. \\
+
+Overleaf facilita la colaboración en proyectos LaTeX, ya que múltiples usuarios pueden trabajar en un documento al mismo tiempo, lo que lo hace ideal para equipos de investigación, escritores académicos y colaboradores remotos que necesitan trabajar juntos en documentos científicos, técnicos o académicos. \\
+
+Además de la edición colaborativa, Overleaf ofrece funciones como compilación en tiempo real, revisión de cambios, seguimiento de versiones, integración con servicios de almacenamiento en la nube, plantillas predefinidas y muchas otras características que hacen que la redacción en LaTeX sea más eficiente y productiva. \\
+
+A continuación detallamos como realizar distintas características en un texto con Overleaf:
+
+\begin{itemize}
+
+\item Título y subtítulo: 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4
+    \textwidth]{seccion y subseccion.png}
+    \label{fig:imagen}
+\end{figure}
+
+\item Separación de párrafos: con doble barras
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.05
+    \textwidth]{parrafo.png}
+    \label{fig:imagen}
+\end{figure}
+
+\item Viñetas:
+
+\begin{minipage}[t]{1\textwidth}
+\centering
+\includegraphics[width=0.3\linewidth]{Viñetas.png} \label{fig:imagen}
+\end{minipage}\
+
+\item Hipervinculo:
+
+\begin{minipage}[t]{0.8\textwidth}
+\centering
+\includegraphics[width=0.7\linewidth]{Hipervinculo.png} \label{fig:imagen}
+\end{minipage}\
+
+\item Imagen: Debemos subir previamente la imagen
+
+\begin{minipage}[t]{0.8\textwidth}
+\centering
+\includegraphics[width=0.7\linewidth]{Imagen.png} \label{fig:imagen}
+\end{minipage}\
+
+
+
+\end{itemize}
+
+
 \end{document}
+
