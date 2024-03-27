@@ -1,0 +1,20 @@
+---
+title: "Costo total de poseer"
+author: "Lucía Cabrera"
+date: "2024-03-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Informe
+Un costo es el valor monetario que se asigna a los recursos necesarios para llevar a cabo una actividad específica o para producir un bien o servicio. 
+
+| Proveedor  | Producto1 | Producto2 | 
+|----------- |-----------|-----------|
+| Proveed1   | 1354 $    | 3000 $    |
+| Proveed2   | 2500 $    | 1200 $    |
+| 
+
+Para crear la tabla se arma de forma manual en el código con guiones (-) y barras verticales (|), y se completa con los datos necesarios.
