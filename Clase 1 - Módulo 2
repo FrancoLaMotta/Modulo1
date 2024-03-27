@@ -58,3 +58,47 @@ Cuando se trata de operar un servidor, hay varios tipos de costos involucrados. 
 | Conectividad             |$ 500000|                            |
 | M. y S. técnico          |$ 100000|Con cierta Frecuencia       |
 | Lic. y serv. adicionales |$  50000|Depende del tipo de servidor|
+
+---
+title: "Costo Total de Poseer"
+author: "Franco La Motta"
+date: "2024-03-27"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Costo Total de Poseer un Servidor
+
+## ¿Qué es un servidor?
+
+Un servidor es una computadora o un programa de software que proporciona servicios, recursos o funcionalidades a otras computadoras, dispositivos o programas, conocidos como clientes. Los servidores están diseñados para manejar solicitudes y proporcionar acceso a recursos como archivos, impresoras, correos electrónicos, bases de datos, páginas web, aplicaciones, juegos en línea, almacenamiento de datos, entre otros.
+
+Los servidores pueden variar en tamaño y capacidad, desde grandes centros de datos que alojan miles de servidores físicos hasta servidores individuales que funcionan en una pequeña empresa o incluso en una computadora personal. Los servidores pueden ofrecer una variedad de servicios, como servidores web, servidores de correo electrónico, servidores de archivos, servidores de base de datos, servidores de juegos, servidores de aplicaciones, servidores de medios, entre otros.
+
+# ¿Qué ventajas tiene poseer un servidor propio?
+- Control total: Con un servidor propio, tienes control completo sobre la configuración, seguridad y recursos del servidor. Esto te permite adaptar el servidor exactamente a tus necesidades específicas.
+
+- Personalización: Puedes personalizar el servidor según tus requisitos exactos de hardware y software. Esto significa que puedes instalar y ejecutar aplicaciones específicas, ajustar la configuración de red y de seguridad según tus necesidades.
+
+- Rendimiento mejorado: Al tener un servidor dedicado para tus aplicaciones y servicios, puedes garantizar un mejor rendimiento y tiempos de respuesta más rápidos. No tienes que compartir recursos con otros usuarios como suele ocurrir en servidores compartidos.
+
+- Seguridad: Tener un servidor propio te brinda un mayor control sobre la seguridad de tus datos y aplicaciones. Puedes implementar medidas de seguridad personalizadas y mantener un monitoreo constante para proteger tu servidor contra amenazas cibernéticas.
+
+- Privacidad y cumplimiento normativo: Para algunas empresas y organizaciones, tener un servidor propio es crucial para cumplir con requisitos de privacidad y regulaciones gubernamentales. Esto les permite mantener el control total sobre sus datos y garantizar el cumplimiento normativo.
+
+- Escalabilidad: Con un servidor propio, puedes escalar tus recursos fácilmente según sea necesario. Puedes agregar más capacidad de almacenamiento, memoria o potencia de procesamiento a medida que tu negocio crece, sin depender de proveedores externos.
+
+- Reducción de costos a largo plazo: Aunque puede haber costos iniciales más altos asociados con la adquisición y configuración de un servidor propio, a largo plazo puede resultar más económico que depender de servicios de alojamiento externos, especialmente para empresas que tienen un uso intensivo de recursos informáticos.
+
+## ¿Cuál  es el costo de adquirir un servidor propio?
+
+
+| Servidor |            Modelo               | Precio      |
+|----------|---------------------------------|-------------|
+|  IBM     |    X3550 M2 Intel Xeon 5520 8gb | $650.000    |
+|  HP      |    Dl380 G10 Dual Xeon Gold     | $2.471.700  |
+|  Dell    |    Poweredge T40 Xeon E-2224    | $1.583.953  |
+|Synology  |    DiskStation DS220+           | USD 678,75  |
+|Synology  |    DiskStation DS920+           | USD 1260,11 |  
